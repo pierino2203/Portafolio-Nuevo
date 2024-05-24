@@ -8,8 +8,8 @@
     
 }
 .container_main{
-    width: 454px;
-    height: 285px;
+    max-width: 100%;
+    height: auto;
     line-height: 15px;
 }
 .container_main img{
@@ -54,7 +54,7 @@
 }
 .about_card {
     width: 1080px;
-    height: 341px;
+    height: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -62,14 +62,14 @@
     
 }
 .about_card img {
-    width: 258px;
-    height: 258px;
+    max-width: 258px;
+    height: auto;
     border-radius: 162px;
 
 }
 .about_text {
-    width: 766px;
-    height: 341px;
+    max-width: 766px;
+    height: auto;
     text-align: left;
     margin-left: 55px;
 
@@ -92,7 +92,7 @@
 }
 .container_about .tecno_container{
     width: 1080px;
-    height: 418px;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,4 +103,17 @@
     font-family: Koulen;
     color: rgba(69, 109, 211, 1);
     text-decoration: underline;
+}
+.cards_tecno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cartita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }

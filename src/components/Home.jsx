@@ -2,6 +2,9 @@ import React from "react";
 import pier1 from '../img/pier.png'
 import pier2 from '../img/pier2.jpeg'
 import Style from '../styles/Home.module.css'
+import Tecs from "./Tecs";
+import { faHtml5, faCss3Alt, faReact, faJs, faBootstrap, } from "@fortawesome/free-brands-svg-icons";
+
 
 
 export default function Home() {
@@ -32,6 +35,40 @@ export default function Home() {
                     <h1>Tecnologías </h1>
                     <div className={Style.cards_tecno}>
                         <div className={Style.card_tecno}>
+                            <h2>Front-End</h2>
+                            <div className={Style.cartita}>
+                                <Tecs icono={faHtml5} nombre='HTML' />
+                                <Tecs icono={faCss3Alt} nombre='CSS' />
+                                <Tecs icono={faReact} nombre='React' />
+                                <Tecs icono={faJs} nombre='JavaScript' />
+                                <Tecs icono={faJs} nombre='TypeScript' />
+                                <Tecs icono={faBootstrap} nombre='Bootstrap' />
+                                <Tecs icono={faHtml5} nombre='Redux' />
+                            </div>
+                        </div>
+                        <div className={Style.card_tecno}>
+                            <h2>Front-End</h2>
+                            <div className={Style.cartita}>
+                                <Tecs icono={faHtml5} nombre='HTML' />
+                                <Tecs icono={faCss3Alt} nombre='CSS' />
+                                <Tecs icono={faReact} nombre='React' />
+                                <Tecs icono={faJs} nombre='JavaScript' />
+                                <Tecs icono={faJs} nombre='TypeScript' />
+                                <Tecs icono={faBootstrap} nombre='Bootstrap' />
+                                <Tecs icono={faHtml5} nombre='Redux' />
+                            </div>
+                        </div>
+                        <div className={Style.card_tecno}>
+                            <h2>Front-End</h2>
+                            <div className={Style.cartita}>
+                                <Tecs icono={faHtml5} nombre='HTML' />
+                                <Tecs icono={faCss3Alt} nombre='CSS' />
+                                <Tecs icono={faReact} nombre='React' />
+                                <Tecs icono={faJs} nombre='JavaScript' />
+                                <Tecs icono={faJs} nombre='TypeScript' />
+                                <Tecs icono={faBootstrap} nombre='Bootstrap' />
+                                <Tecs icono={faHtml5} nombre='Redux' />
+                            </div>
                         </div>
                     </div>
 

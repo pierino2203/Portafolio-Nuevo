@@ -1,0 +1,15 @@
+.tec {
+    background-color: rgba(129, 129, 129, 1);
+    display: inline-flex; /* Cambiado de 'flex' a 'inline-flex' */
+    justify-content: center;
+    align-items: center;
+    height: 20px; /* Cambiado a 'auto' para que la altura se adapte al contenido */
+    padding: 8px; /* Añade un poco de espacio alrededor del contenido */
+}
+.tec p {
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 1000;
+    color: #ffffff;
+    margin-left: 8px;
+}
