@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(236, 234, 234, 1);
+    flex-wrap: wrap;
+    
+}
+.container_main{
+    width: 454px;
+    height: 285px;
+    line-height: 15px;
+}
+.container_main img{
+    width: 113px;
+    height: 110px;
+    border-radius: 164px;
+    margin-bottom: -9px;
+
+}
+.container_main h1{
+    font-size: 60px;
+    font-family: Koulen;
+    color: rgba(69, 109, 211, 1);
+    margin-left: 0px;
+}
+.container_main h2{
+    font-size: 48px;
+    font-weight: 400;
+}
+.container_main button{
+    width: 210px;
+    height: 52px;
+    margin-top: -8px;
+    margin-left: 10px;
+    background-color: rgba(69, 109, 211, 1) ;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+    border: none;
+    font-weight: bold;
+    max-width: max-content;
+}
+
+.container_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(236, 234, 234, 1);
+    flex-wrap: wrap;
+}
+.about_card {
+    width: 1080px;
+    height: 341px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about_card img {
+    width: 258px;
+    height: 258px;
+    border-radius: 162px;
+
+}
+.about_text {
+    width: 766px;
+    height: 341px;
+    text-align: left;
+    margin-left: 55px;
+
+
+}
+.about_text h1 {
+    font-size: 52px;
+    font-family: Koulen;
+    color: rgba(69, 109, 211, 1);
+    margin-left: 0px;
+    font-weight: 400;
+    margin-bottom: -20px;
+    text-decoration: underline;
+}
+.about_text p {
+    font-size: 21px;
+    font-family: Manrope;
+    font-weight: bold;
+    color: rgba(96, 89, 89, 1)
+}
+.container_about .tecno_container{
+    width: 1080px;
+    height: 418px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tecno_container h1{
+    font-size: 52px;
+    font-family: Koulen;
+    color: rgba(69, 109, 211, 1);
+    text-decoration: underline;
+}
