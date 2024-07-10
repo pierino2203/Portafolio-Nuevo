@@ -130,9 +130,8 @@
     gap: 10px;
 }
 .proyectos {
-    width: 100%;
+    width: 90%;
     height: 100vh;
-    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
