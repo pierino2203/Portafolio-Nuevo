@@ -25,17 +25,17 @@ export default function Home() {
                 <div className={Style.about_card}>
                     <img src={pier2} alt="" />
                     <div className={Style.about_text}>
-                        <h1>Sobre mí</h1>
+                        <h2>Sobre mí</h2>
                         <p>Soy Pierino,estudiante del 4 año de Ingenieria en Sistemas de Informacion, complete un curso intensivo de Full Stack Developer donde realice proyectos y simule un ambiente de trabajo en equipo.
                         </p>
                         <p> Soy muy apasionado por aprender cosas nuevas y me encantan los desafios.</p>
                     </div>
                 </div>
                 <div className={Style.tecno_container}>
-                    <h1>Tecnologías </h1>
+                    <h2>Tecnologías </h2>
                     <div className={Style.cards_tecno}>
                         <div className={Style.card_tecno}>
-                            <h2>Front-End</h2>
+                            <h3>Front-End</h3>
                             <div className={Style.cartita}>
                                 <Tecs icono={faHtml5} nombre='HTML' />
                                 <Tecs icono={faCss3Alt} nombre='CSS' />
@@ -47,7 +47,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className={Style.card_tecno}>
-                            <h2>Front-End</h2>
+                            <h3>Back-End</h3>
                             <div className={Style.cartita}>
                                 <Tecs icono={faHtml5} nombre='HTML' />
                                 <Tecs icono={faCss3Alt} nombre='CSS' />
@@ -59,7 +59,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className={Style.card_tecno}>
-                            <h2>Front-End</h2>
+                            <h3>Tools</h3>
                             <div className={Style.cartita}>
                                 <Tecs icono={faHtml5} nombre='HTML' />
                                 <Tecs icono={faCss3Alt} nombre='CSS' />

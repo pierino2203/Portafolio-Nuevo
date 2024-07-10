@@ -13,3 +13,20 @@
     color: #ffffff;
     margin-left: 8px;
 }
+@media (max-width: 768px){
+    .tec {
+        background-color: rgba(129, 129, 129, 1);
+        display: inline-flex; /* Cambiado de 'flex' a 'inline-flex' */
+        justify-content: center;
+        align-items: center;
+        height: 15px; /* Cambiado a 'auto' para que la altura se adapte al contenido */
+        padding: 7px; /* Añade un poco de espacio alrededor del contenido */
+    }
+    .tec p {
+        font-family: Manrope;
+        font-size: 14px;
+        font-weight: 1000;
+        color: #ffffff;
+        margin-left: 5px;
+    }
+}

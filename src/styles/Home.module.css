@@ -1,3 +1,4 @@
+
 .container {
     display: flex;
     justify-content: center;
@@ -48,35 +49,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+
     background-color: rgba(236, 234, 234, 1);
-    flex-wrap: wrap;
+    flex-direction: column;
+    
 }
 .about_card {
-    width: 1080px;
-    height: 50%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+
     
 }
 .about_card img {
-    max-width: 258px;
+    max-width: 25%;
+    min-width: 22%;
     height: auto;
-    border-radius: 162px;
+    border-radius: 200px;
 
 }
 .about_text {
-    max-width: 766px;
+    max-width: 60%;
     height: auto;
     text-align: left;
-    margin-left: 55px;
 
 
 }
-.about_text h1 {
-    font-size: 52px;
+.about_text h2 {
+    font-size: clamp(2rem, 1.286rem + 1.905vw, 3rem);
     font-family: Koulen;
     color: rgba(69, 109, 211, 1);
     margin-left: 0px;
@@ -85,35 +88,53 @@
     text-decoration: underline;
 }
 .about_text p {
-    font-size: 21px;
+    font-size: clamp(1rem, 0.643rem + 0.952vw, 1.5rem);
     font-family: Manrope;
     font-weight: bold;
     color: rgba(96, 89, 89, 1)
 }
 .container_about .tecno_container{
-    width: 1080px;
-    height: 50%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 0px;
 }
-.tecno_container h1{
-    font-size: 52px;
+.tecno_container h2{
+    font-size: clamp(2rem, 1.286rem + 1.905vw, 3rem);
     font-family: Koulen;
     color: rgba(69, 109, 211, 1);
     text-decoration: underline;
+    width: 90%;
+    margin-bottom: 0px;
+}
+.tecno_container h3{
+    font-size: clamp(1.5rem, 1.143rem + 0.952vw, 2rem);
+    font-family: Koulen;
+    margin-bottom: 0px;
 }
 .cards_tecno {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 15px;
 }
 .cartita {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    max-width: 345px;
     gap: 10px;
+}
+
+@media (max-width: 768px){
+    .about_text h2{
+        font-size: 2rem;
+    }
+    .about_text p {
+        font-size: 1rem;
+    }
 }
