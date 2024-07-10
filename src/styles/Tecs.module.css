@@ -19,7 +19,7 @@
         display: inline-flex; /* Cambiado de 'flex' a 'inline-flex' */
         justify-content: center;
         align-items: center;
-        height: 15px; /* Cambiado a 'auto' para que la altura se adapte al contenido */
+        height: 17px; /* Cambiado a 'auto' para que la altura se adapte al contenido */
         padding: 7px; /* Añade un poco de espacio alrededor del contenido */
     }
     .tec p {
