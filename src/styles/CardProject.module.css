@@ -5,10 +5,11 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 10px;
+    border: 1px;
+    border-color: black;
 }
 .card__project img{
     max-width: 74%;
-    height: 100%;
 }
 .contenido{
     display: flex;
@@ -44,8 +45,9 @@
 
 @media (max-width: 576px){
     .contenido {
+        max-width: 80%;
     }
     .card__project img {
-        width: 50%;
+        max-width: 100%;
     }
 }
