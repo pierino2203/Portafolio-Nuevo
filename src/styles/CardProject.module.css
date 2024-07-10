@@ -43,7 +43,6 @@
 
 @media (max-width: 576px){
     .contenido {
-        background-color: aqua;
     }
     .card__project img {
         width: 50%;
