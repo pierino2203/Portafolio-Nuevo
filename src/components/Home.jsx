@@ -4,7 +4,9 @@ import pier2 from '../img/pier2.jpeg'
 import Style from '../styles/Home.module.css'
 import Tecs from "./Tecs";
 import { faHtml5, faCss3Alt, faReact, faJs, faBootstrap, } from "@fortawesome/free-brands-svg-icons";
-
+import { CardProject } from "./CardProject";
+import imgProject1 from '../img/Captura de pantalla 2024-05-16 a la(s) 1.07.55 p. m 2.png'
+ 
 
 
 export default function Home() {
@@ -72,6 +74,29 @@ export default function Home() {
                         </div>
                     </div>
 
+                </div>
+                <div className={Style.proyectos}>
+                    <CardProject
+                        img={imgProject1}
+                        nombre="Dogs App"
+                        descripcion="Esta app contiene varias razas de perros y contiene filtros, se puede buscar ver el detalle de cada perro y se puede agregar un perro"
+                        github="https://github.com/pierino2203/Deply-Dog"
+                        deploy="https://deply-d.vercel.app/"
+                    />
+                                        <CardProject
+                        img={imgProject1}
+                        nombre="Dogs App"
+                        descripcion="Esta app contiene varias razas de perros y contiene filtros, se puede buscar ver el detalle de cada perro y se puede agregar un perro"
+                        github="https://github.com/pierino2203/Deply-Dog"
+                        deploy="https://deply-d.vercel.app/"
+                    />
+                                        <CardProject
+                        img={imgProject1}
+                        nombre="Dogs App"
+                        descripcion="Esta app contiene varias razas de perros y contiene filtros, se puede buscar ver el detalle de cada perro y se puede agregar un perro"
+                        github="https://github.com/pierino2203/Deply-Dog"
+                        deploy="https://deply-d.vercel.app/"
+                    />
                 </div>
             </div>
         </>

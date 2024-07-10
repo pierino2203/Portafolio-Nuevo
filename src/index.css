@@ -6,9 +6,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(236, 234, 234, 1);
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root{
+  --main-primario-color : rgba(69, 109, 211, 1);
+  --main-secundario-color: rgba(236, 234, 234, 1);
+  --main-terciario-color : rgba(96, 89, 89, 1);
 }
