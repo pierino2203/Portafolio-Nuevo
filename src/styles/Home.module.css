@@ -1,3 +1,16 @@
+.redes {
+    position: absolute; /* Posición absoluta para ubicarlo en la parte superior */
+    top: 0; /* Alinearlo con la parte superior de la pantalla */
+    left: 50%; /* Alinearlo con el centro horizontalmente */
+    transform: translateX(-50%); /* Centrar el elemento horizontalmente */
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
 
 .container {
     display: flex;

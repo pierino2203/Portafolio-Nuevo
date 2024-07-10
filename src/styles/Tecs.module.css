@@ -1,5 +1,5 @@
 .tec {
-    background-color: rgba(129, 129, 129, 1);
+    background-color: var(--main-primario-color);
     display: inline-flex; /* Cambiado de 'flex' a 'inline-flex' */
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
 }
 @media (max-width: 768px){
     .tec {
-        background-color: rgba(129, 129, 129, 1);
+        background-color: var(--main-primario-color);
         display: inline-flex; /* Cambiado de 'flex' a 'inline-flex' */
         justify-content: center;
         align-items: center;
@@ -32,7 +32,7 @@
 }
 @media (max-width: 576px){
     .tec {
-        background-color: rgba(129, 129, 129, 1);
+        background-color: var(--main-primario-color);
         display: inline-flex; /* Cambiado de 'flex' a 'inline-flex' */
         justify-content: center;
         align-items: center;

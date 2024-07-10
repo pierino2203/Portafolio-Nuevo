@@ -3,16 +3,25 @@ import pier1 from '../img/pier.png'
 import pier2 from '../img/pier2.jpeg'
 import Style from '../styles/Home.module.css'
 import Tecs from "./Tecs";
-import { faHtml5, faCss3Alt, faReact, faJs, faBootstrap, } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHtml5, faCss3Alt, faReact, faJs, faBootstrap, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { CardProject } from "./CardProject";
 import imgProject1 from '../img/Captura de pantalla 2024-05-16 a la(s) 1.07.55 p. m 2.png'
- 
+
 
 
 export default function Home() {
     return (
         <>
+
             <div className={Style.container}>
+                <div className={Style.redes}>
+                    <a href="https://github.com/pierino2203" target="blank"><FontAwesomeIcon icon={faGithub} style={{ color: "rgba(69, 109, 211, 1)", heigh:"30px",width:"30px" }} /></a>
+                    <a href="https://www.linkedin.com/in/pierino-esteban-juncos-9a4804240/" target="blank"><FontAwesomeIcon icon={faLinkedinIn} style={{ color: "rgba(69, 109, 211, 1)", heigh:"30px",width:"30px" }} /></a>
+                    <a href="mailto:pierinoe@gmail.com?subject=Asunto%20del%20Correo&body=Mensaje%20del%20Correo" target="blank"><FontAwesomeIcon icon={faEnvelope} style={{ color: "rgba(69, 109, 211, 1)",heigh:"30px",width:"30px" }} /></a>
+                </div>
                 <div className={Style.container_main}>
                     <img src={pier1} alt="" />
                     <h1>Pierino Juncos</h1>
@@ -83,14 +92,14 @@ export default function Home() {
                         github="https://github.com/pierino2203/Deply-Dog"
                         deploy="https://deply-d.vercel.app/"
                     />
-                                        <CardProject
+                    <CardProject
                         img={imgProject1}
                         nombre="Dogs App"
                         descripcion="Esta app contiene varias razas de perros y contiene filtros, se puede buscar ver el detalle de cada perro y se puede agregar un perro"
                         github="https://github.com/pierino2203/Deply-Dog"
                         deploy="https://deply-d.vercel.app/"
                     />
-                                        <CardProject
+                    <CardProject
                         img={imgProject1}
                         nombre="Dogs App"
                         descripcion="Esta app contiene varias razas de perros y contiene filtros, se puede buscar ver el detalle de cada perro y se puede agregar un perro"
