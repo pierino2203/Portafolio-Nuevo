@@ -27,7 +27,7 @@
     margin-left: 0px;
 }
 .container_main h2{
-    font-size: 48px;
+    font-size: clamp(2.5rem, 1.286rem + 1.905vw, 3rem);
     font-weight: 400;
 }
 .container_main button{
