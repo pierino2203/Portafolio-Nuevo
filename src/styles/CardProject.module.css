@@ -30,13 +30,22 @@
     color: var(--main-secundario-color);
     font-size: clamp(0.8rem, 0.443rem + 0.952vw, 1.3rem);
     text-align: right;
-    margin-left: 10px;
     font-weight: bold;
     background-color: var(--main-primario-color);
     padding: 8px;
+
 }
 .iconos{
     display: flex;
     flex-direction: row-reverse;
     gap: 10px;
+}
+
+@media (max-width: 576px){
+    .contenido {
+        background-color: aqua;
+    }
+    .card__project img {
+        width: 50%;
+    }
 }
