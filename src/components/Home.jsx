@@ -18,9 +18,9 @@ export default function Home() {
 
             <div className={Style.container}>
                 <div className={Style.redes}>
-                    <a href="https://github.com/pierino2203" target="blank"><FontAwesomeIcon icon={faGithub} style={{ color: "rgba(69, 109, 211, 1)", heigh:"30px",width:"30px" }} /></a>
-                    <a href="https://www.linkedin.com/in/pierino-esteban-juncos-9a4804240/" target="blank"><FontAwesomeIcon icon={faLinkedinIn} style={{ color: "rgba(69, 109, 211, 1)", heigh:"30px",width:"30px" }} /></a>
-                    <a href="mailto:pierinoe@gmail.com?subject=Asunto%20del%20Correo&body=Mensaje%20del%20Correo" target="blank"><FontAwesomeIcon icon={faEnvelope} style={{ color: "rgba(69, 109, 211, 1)",heigh:"30px",width:"30px" }} /></a>
+                    <a href="https://github.com/pierino2203" target="blank"><FontAwesomeIcon icon={faGithub} style={{ color: "rgba(69, 109, 211, 1)", heigh: "30px", width: "30px" }} /></a>
+                    <a href="https://www.linkedin.com/in/pierino-esteban-juncos-9a4804240/" target="blank"><FontAwesomeIcon icon={faLinkedinIn} style={{ color: "rgba(69, 109, 211, 1)", heigh: "30px", width: "30px" }} /></a>
+                    <a href="mailto:pierinoe@gmail.com?subject=Asunto%20del%20Correo&body=Mensaje%20del%20Correo" target="blank"><FontAwesomeIcon icon={faEnvelope} style={{ color: "rgba(69, 109, 211, 1)", heigh: "30px", width: "30px" }} /></a>
                 </div>
                 <div className={Style.container_main}>
                     <img src={pier1} alt="" />
@@ -84,7 +84,11 @@ export default function Home() {
                     </div>
 
                 </div>
+
+            </div>
+            <div className={Style.container__projects}>
                 <div className={Style.proyectos}>
+                    <h2>Proyectos Principales</h2>
                     <CardProject
                         img={imgProject1}
                         nombre="Dogs App"
@@ -106,6 +110,18 @@ export default function Home() {
                         github="https://github.com/pierino2203/Deply-Dog"
                         deploy="https://deply-d.vercel.app/"
                     />
+                    <CardProject
+                        img={imgProject1}
+                        nombre="Dogs App"
+                        descripcion="Esta app contiene varias razas de perros y contiene filtros, se puede buscar ver el detalle de cada perro y se puede agregar un perro"
+                        github="https://github.com/pierino2203/Deply-Dog"
+                        deploy="https://deply-d.vercel.app/"
+                    />
+                </div>
+                <div className={Style.porject__Sec}>
+                    <h2>
+                        Otros Proyectos
+                    </h2>
                 </div>
             </div>
         </>
