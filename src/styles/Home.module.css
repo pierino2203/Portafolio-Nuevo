@@ -34,7 +34,7 @@
 
 }
 .container_main h1{
-    font-size: 60px;
+    font-size: clamp(2.9rem, 2.293rem + 1.619vw, 3.75rem);
     font-family: Koulen;
     color: var(--main-primario-color);
     margin-left: 0px;
